@@ -1,0 +1,428 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2321E78B1FAF3AA50074C4CA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2321E78A1FAF3AA50074C4CA /* AppDelegate.swift */; };
+		2321E78D1FAF3AA50074C4CA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2321E78C1FAF3AA50074C4CA /* ViewController.swift */; };
+		2321E7901FAF3AA50074C4CA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2321E78E1FAF3AA50074C4CA /* Main.storyboard */; };
+		2321E7921FAF3AA50074C4CA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2321E7911FAF3AA50074C4CA /* Assets.xcassets */; };
+		2321E7951FAF3AA50074C4CA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2321E7931FAF3AA50074C4CA /* LaunchScreen.storyboard */; };
+		23390ECF1FB8DF4D000FE18F /* RequestTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23390ECE1FB8DF4D000FE18F /* RequestTableViewCell.swift */; };
+		23390ED11FBB1D31000FE18F /* requests.json in Resources */ = {isa = PBXBuildFile; fileRef = 23390ED01FBB1D31000FE18F /* requests.json */; };
+		23390ED31FBB21F4000FE18F /* SongRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23390ED21FBB21F4000FE18F /* SongRequest.swift */; };
+		23390ED51FBB4A65000FE18F /* UIDragAndDropTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23390ED41FBB4A65000FE18F /* UIDragAndDropTableView.swift */; };
+		23CC03A4218A4ACA00895779 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23CC03A3218A4ACA00895779 /* Foundation.framework */; };
+		3BB19F27665C7871A6DA9799 /* Pods_Karaoke.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C20625A456948E4F87377805 /* Pods_Karaoke.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2321E7871FAF3AA50074C4CA /* Karaoke.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Karaoke.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2321E78A1FAF3AA50074C4CA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2321E78C1FAF3AA50074C4CA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2321E78F1FAF3AA50074C4CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2321E7911FAF3AA50074C4CA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2321E7941FAF3AA50074C4CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2321E7961FAF3AA50074C4CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		23390ECE1FB8DF4D000FE18F /* RequestTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestTableViewCell.swift; sourceTree = "<group>"; };
+		23390ED01FBB1D31000FE18F /* requests.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = requests.json; sourceTree = "<group>"; };
+		23390ED21FBB21F4000FE18F /* SongRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SongRequest.swift; path = Objects/SongRequest.swift; sourceTree = "<group>"; };
+		23390ED41FBB4A65000FE18F /* UIDragAndDropTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIDragAndDropTableView.swift; sourceTree = "<group>"; };
+		23CC03A3218A4ACA00895779 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		2CA3AF565CE6EC0E7AB978AA /* Pods-Karaoke.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Karaoke.release.xcconfig"; path = "Pods/Target Support Files/Pods-Karaoke/Pods-Karaoke.release.xcconfig"; sourceTree = "<group>"; };
+		3724555C69DF75F8C78B34C4 /* Pods-Karaoke.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Karaoke.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Karaoke/Pods-Karaoke.debug.xcconfig"; sourceTree = "<group>"; };
+		C20625A456948E4F87377805 /* Pods_Karaoke.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Karaoke.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2321E7841FAF3AA40074C4CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23CC03A4218A4ACA00895779 /* Foundation.framework in Frameworks */,
+				3BB19F27665C7871A6DA9799 /* Pods_Karaoke.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2321E77E1FAF3AA40074C4CA = {
+			isa = PBXGroup;
+			children = (
+				2321E7891FAF3AA50074C4CA /* DemoKaraoke */,
+				2321E7881FAF3AA50074C4CA /* Products */,
+				EAD86379109A409A1F074A86 /* Pods */,
+				CCD4F3C3C8893BE2F2F99073 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2321E7881FAF3AA50074C4CA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2321E7871FAF3AA50074C4CA /* Karaoke.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2321E7891FAF3AA50074C4CA /* DemoKaraoke */ = {
+			isa = PBXGroup;
+			children = (
+				2321E78A1FAF3AA50074C4CA /* AppDelegate.swift */,
+				2321E78C1FAF3AA50074C4CA /* ViewController.swift */,
+				2321E78E1FAF3AA50074C4CA /* Main.storyboard */,
+				2321E7911FAF3AA50074C4CA /* Assets.xcassets */,
+				2321E7931FAF3AA50074C4CA /* LaunchScreen.storyboard */,
+				2321E7961FAF3AA50074C4CA /* Info.plist */,
+				23390ECE1FB8DF4D000FE18F /* RequestTableViewCell.swift */,
+				23390ED01FBB1D31000FE18F /* requests.json */,
+				23390ED21FBB21F4000FE18F /* SongRequest.swift */,
+				23390ED41FBB4A65000FE18F /* UIDragAndDropTableView.swift */,
+			);
+			path = DemoKaraoke;
+			sourceTree = "<group>";
+		};
+		CCD4F3C3C8893BE2F2F99073 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				23CC03A3218A4ACA00895779 /* Foundation.framework */,
+				C20625A456948E4F87377805 /* Pods_Karaoke.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EAD86379109A409A1F074A86 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3724555C69DF75F8C78B34C4 /* Pods-Karaoke.debug.xcconfig */,
+				2CA3AF565CE6EC0E7AB978AA /* Pods-Karaoke.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2321E7861FAF3AA40074C4CA /* Karaoke */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2321E7991FAF3AA50074C4CA /* Build configuration list for PBXNativeTarget "Karaoke" */;
+			buildPhases = (
+				4C29EFAD0B2167675028669D /* [CP] Check Pods Manifest.lock */,
+				2321E7831FAF3AA40074C4CA /* Sources */,
+				2321E7841FAF3AA40074C4CA /* Frameworks */,
+				2321E7851FAF3AA40074C4CA /* Resources */,
+				DBA5934BD43452CC7E71E9DC /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Karaoke;
+			productName = DemoKaraoke;
+			productReference = 2321E7871FAF3AA50074C4CA /* Karaoke.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2321E77F1FAF3AA40074C4CA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = "Productions Redge";
+				TargetAttributes = {
+					2321E7861FAF3AA40074C4CA = {
+						CreatedOnToolsVersion = 8.2.1;
+						LastSwiftMigration = 1160;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 2321E7821FAF3AA40074C4CA /* Build configuration list for PBXProject "Karaoke" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2321E77E1FAF3AA40074C4CA;
+			productRefGroup = 2321E7881FAF3AA50074C4CA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2321E7861FAF3AA40074C4CA /* Karaoke */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2321E7851FAF3AA40074C4CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2321E7951FAF3AA50074C4CA /* LaunchScreen.storyboard in Resources */,
+				23390ED11FBB1D31000FE18F /* requests.json in Resources */,
+				2321E7921FAF3AA50074C4CA /* Assets.xcassets in Resources */,
+				2321E7901FAF3AA50074C4CA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4C29EFAD0B2167675028669D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Karaoke-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DBA5934BD43452CC7E71E9DC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Karaoke/Pods-Karaoke-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SwiftSignalRClient/SwiftSignalRClient.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftSignalRClient.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Karaoke/Pods-Karaoke-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2321E7831FAF3AA40074C4CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23390ED51FBB4A65000FE18F /* UIDragAndDropTableView.swift in Sources */,
+				23390ED31FBB21F4000FE18F /* SongRequest.swift in Sources */,
+				2321E78D1FAF3AA50074C4CA /* ViewController.swift in Sources */,
+				2321E78B1FAF3AA50074C4CA /* AppDelegate.swift in Sources */,
+				23390ECF1FB8DF4D000FE18F /* RequestTableViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2321E78E1FAF3AA50074C4CA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2321E78F1FAF3AA50074C4CA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2321E7931FAF3AA50074C4CA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2321E7941FAF3AA50074C4CA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2321E7971FAF3AA50074C4CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_ENFORCE_EXCLUSIVE_ACCESS = "compile-time";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		2321E7981FAF3AA50074C4CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_ENFORCE_EXCLUSIVE_ACCESS = "compile-time";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2321E79A1FAF3AA50074C4CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3724555C69DF75F8C78B34C4 /* Pods-Karaoke.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9BE638HJC6;
+				INFOPLIST_FILE = DemoKaraoke/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rcaron2.DemoKaraoke;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2321E79B1FAF3AA50074C4CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2CA3AF565CE6EC0E7AB978AA /* Pods-Karaoke.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9BE638HJC6;
+				INFOPLIST_FILE = DemoKaraoke/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rcaron2.DemoKaraoke;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2321E7821FAF3AA40074C4CA /* Build configuration list for PBXProject "Karaoke" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2321E7971FAF3AA50074C4CA /* Debug */,
+				2321E7981FAF3AA50074C4CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2321E7991FAF3AA50074C4CA /* Build configuration list for PBXNativeTarget "Karaoke" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2321E79A1FAF3AA50074C4CA /* Debug */,
+				2321E79B1FAF3AA50074C4CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2321E77F1FAF3AA40074C4CA /* Project object */;
+}

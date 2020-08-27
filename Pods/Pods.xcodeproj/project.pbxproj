@@ -1,0 +1,671 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0EE4535AD4700D8A595551119C4A7363 /* SwiftSignalRClient-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3652DD9344F49427CE99DD9718CC2EE2 /* SwiftSignalRClient-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		130384523D6BA6DAC16AA5220E519709 /* SignalRError.swift in Sources */ = {isa = PBXBuildFile; fileRef = B960897BFF5769FEAE9A188BC2C19CD2 /* SignalRError.swift */; };
+		137A64FEA05653298B49AE514DBF2F93 /* HubConnectionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27B41AA955A0332D8CD065617843A10E /* HubConnectionDelegate.swift */; };
+		15F267643BF98D6EFB32CD988CD7D0D0 /* HttpResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FD25F0202DDB19EEC29CF9C18299EEC /* HttpResponse.swift */; };
+		1C90550B2EBFB254B33650A1ED4A7F63 /* StreamHandle.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1CF293643D6A8D6EF2E82772DAF6E4B /* StreamHandle.swift */; };
+		2660FF5EB5E81E806F879DA8FDBF7BB8 /* Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9AD813462DF316C7C85246FECD5EE4D /* Util.swift */; };
+		2BD281DA5F6B2677760D7BC98FEB0F33 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
+		2E51884C836B75FC0D7CD6C77047D9E3 /* SwiftSignalRClient-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A1DCBCF36C9B1281BE57C961A228A261 /* SwiftSignalRClient-dummy.m */; };
+		31768264EA08FEF8C9C118C66D25116C /* ServerInvocationHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC6A9597EA6AEA90A5A4E7933BA2964D /* ServerInvocationHandler.swift */; };
+		352E80A5B8357FB5DEDC710407B78434 /* Transport.swift in Sources */ = {isa = PBXBuildFile; fileRef = F70306BC1F50A2932A7B4D180597936A /* Transport.swift */; };
+		36604A76909B1FEE4648435CE0626B1E /* JSONHubProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BA9BDE0865FDC94BB2A967BF2863738 /* JSONHubProtocol.swift */; };
+		6C4E9794112FBB4EB4FA758E352FCD94 /* TransportDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAFB1344CBE61CFD7E84B13461E551F0 /* TransportDelegate.swift */; };
+		8451C5C9797432364151C075BBE202DF /* HubConnection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5698FF7760BF0042BAA7A87CF195C358 /* HubConnection.swift */; };
+		944E462D7DE84BDDEDE98D400FA907AA /* WebsocketsTransport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9866BF13CAA03570375964ABE084509A /* WebsocketsTransport.swift */; };
+		A81AA88FE224B1B218584A52ACAFCBF8 /* Connection.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAA66B458289A7A39070DB19364C1EAF /* Connection.swift */; };
+		AB4496CD2237E7E89CE99FFD10716546 /* Pods-Karaoke-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 90467216CF8D5B1F729418BDDBDBB30C /* Pods-Karaoke-dummy.m */; };
+		B87C7A8D9B83995AB1C9948A9D6F0F3B /* DefaultHttpClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FBD9D9D4D99E8F8F4B5581C968D3E80 /* DefaultHttpClient.swift */; };
+		B8A1897337CD9F3A437E1037D99AF279 /* HubProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A33E2EB841DABD83D9A4AFB78100036 /* HubProtocol.swift */; };
+		BDAFC2A6C647B0836246977BBF21A400 /* Pods-Karaoke-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F8C911C67E5E98DC4FEEB00382402A8B /* Pods-Karaoke-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C519A08A0FFC6D4B3CD68B8586FB20D4 /* WebSocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B43AD9C5728EECF773378A830974597 /* WebSocket.swift */; };
+		C6349E99A86849D775F7362695504101 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
+		DF524094DB65975ABCED578B34A4489C /* SocketConnection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 561E2E795686337B992E6E26200E64F3 /* SocketConnection.swift */; };
+		E2A6B5B4900CF240884EE9A800E229A6 /* HandshakeProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22E554F2746D643910389E4985591FE9 /* HandshakeProtocol.swift */; };
+		F7EA5AB853B3AD216AB941DF813A350E /* SocketConnectionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 532BB30500FA82BE44A8B36D57142E37 /* SocketConnectionDelegate.swift */; };
+		FA74C7C9F0A4E8DFEDE3D8FB709B0A0F /* TypeConverter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E01730590F074C5EF2ED1FF06FC6C4B /* TypeConverter.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1061F397B318345D5F4CF2ADD64B099B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF3173F2E65C5733C51853C700EE0835;
+			remoteInfo = SwiftSignalRClient;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		22E554F2746D643910389E4985591FE9 /* HandshakeProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HandshakeProtocol.swift; path = SignalRClient/HandshakeProtocol.swift; sourceTree = "<group>"; };
+		27B41AA955A0332D8CD065617843A10E /* HubConnectionDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HubConnectionDelegate.swift; path = SignalRClient/HubConnectionDelegate.swift; sourceTree = "<group>"; };
+		28BC51E6E8BEF1595681B8D2915DBB6A /* Pods-Karaoke-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Karaoke-acknowledgements.markdown"; sourceTree = "<group>"; };
+		2B43AD9C5728EECF773378A830974597 /* WebSocket.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WebSocket.swift; path = SignalRClient/WebSocket.swift; sourceTree = "<group>"; };
+		3652DD9344F49427CE99DD9718CC2EE2 /* SwiftSignalRClient-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftSignalRClient-umbrella.h"; sourceTree = "<group>"; };
+		45B0AC9D736FF4B851DCD06D11E4FDE2 /* SwiftSignalRClient.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftSignalRClient.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CE4A54754A175C383178A679D4F181D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4FBD9D9D4D99E8F8F4B5581C968D3E80 /* DefaultHttpClient.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DefaultHttpClient.swift; path = SignalRClient/DefaultHttpClient.swift; sourceTree = "<group>"; };
+		5045F09233F8DD5519BAC0BEEFE4E5EB /* Pods-Karaoke.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Karaoke.modulemap"; sourceTree = "<group>"; };
+		532BB30500FA82BE44A8B36D57142E37 /* SocketConnectionDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SocketConnectionDelegate.swift; path = SignalRClient/SocketConnectionDelegate.swift; sourceTree = "<group>"; };
+		561E2E795686337B992E6E26200E64F3 /* SocketConnection.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SocketConnection.swift; path = SignalRClient/SocketConnection.swift; sourceTree = "<group>"; };
+		5698FF7760BF0042BAA7A87CF195C358 /* HubConnection.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HubConnection.swift; path = SignalRClient/HubConnection.swift; sourceTree = "<group>"; };
+		764944CB72EDB2153A7DD1611E57933F /* SwiftSignalRClient.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SwiftSignalRClient.modulemap; sourceTree = "<group>"; };
+		7FD25F0202DDB19EEC29CF9C18299EEC /* HttpResponse.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HttpResponse.swift; path = SignalRClient/HttpResponse.swift; sourceTree = "<group>"; };
+		8A33E2EB841DABD83D9A4AFB78100036 /* HubProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HubProtocol.swift; path = SignalRClient/HubProtocol.swift; sourceTree = "<group>"; };
+		8BA9BDE0865FDC94BB2A967BF2863738 /* JSONHubProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JSONHubProtocol.swift; path = SignalRClient/JSONHubProtocol.swift; sourceTree = "<group>"; };
+		8E01730590F074C5EF2ED1FF06FC6C4B /* TypeConverter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TypeConverter.swift; path = SignalRClient/TypeConverter.swift; sourceTree = "<group>"; };
+		90467216CF8D5B1F729418BDDBDBB30C /* Pods-Karaoke-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Karaoke-dummy.m"; sourceTree = "<group>"; };
+		9162DA2424458D8CB04CE79384CFF89F /* Pods-Karaoke-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Karaoke-frameworks.sh"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9866BF13CAA03570375964ABE084509A /* WebsocketsTransport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WebsocketsTransport.swift; path = SignalRClient/WebsocketsTransport.swift; sourceTree = "<group>"; };
+		A1DCBCF36C9B1281BE57C961A228A261 /* SwiftSignalRClient-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftSignalRClient-dummy.m"; sourceTree = "<group>"; };
+		A5774D4A3A8946EE40309F72C1DA4D2C /* Pods-Karaoke-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Karaoke-acknowledgements.plist"; sourceTree = "<group>"; };
+		A86B9F46A06EAF9C5CFBAE0D0DE8CD9B /* SwiftSignalRClient-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftSignalRClient-prefix.pch"; sourceTree = "<group>"; };
+		AAFB1344CBE61CFD7E84B13461E551F0 /* TransportDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TransportDelegate.swift; path = SignalRClient/TransportDelegate.swift; sourceTree = "<group>"; };
+		B377D3DF9AFF0252402ECC272115E361 /* Pods-Karaoke-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Karaoke-resources.sh"; sourceTree = "<group>"; };
+		B960897BFF5769FEAE9A188BC2C19CD2 /* SignalRError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SignalRError.swift; path = SignalRClient/SignalRError.swift; sourceTree = "<group>"; };
+		D1CF293643D6A8D6EF2E82772DAF6E4B /* StreamHandle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StreamHandle.swift; path = SignalRClient/StreamHandle.swift; sourceTree = "<group>"; };
+		D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		DC0CDAA83FFB348D5F0458514A8924E0 /* Pods_Karaoke.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Karaoke.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD99C61784C8E806A4A5981CC5D59142 /* Pods-Karaoke.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Karaoke.debug.xcconfig"; sourceTree = "<group>"; };
+		E90BBAB61FE734A7FD5828C807C77183 /* SwiftSignalRClient.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftSignalRClient.xcconfig; sourceTree = "<group>"; };
+		EAA66B458289A7A39070DB19364C1EAF /* Connection.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Connection.swift; path = SignalRClient/Connection.swift; sourceTree = "<group>"; };
+		F11FCECB10824D7E60E1465A1E6737B5 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F43F32E942610897E6FD05CF3C0DD466 /* Pods-Karaoke.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Karaoke.release.xcconfig"; sourceTree = "<group>"; };
+		F70306BC1F50A2932A7B4D180597936A /* Transport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Transport.swift; path = SignalRClient/Transport.swift; sourceTree = "<group>"; };
+		F8C911C67E5E98DC4FEEB00382402A8B /* Pods-Karaoke-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Karaoke-umbrella.h"; sourceTree = "<group>"; };
+		F9AD813462DF316C7C85246FECD5EE4D /* Util.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Util.swift; path = SignalRClient/Util.swift; sourceTree = "<group>"; };
+		FC6A9597EA6AEA90A5A4E7933BA2964D /* ServerInvocationHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ServerInvocationHandler.swift; path = SignalRClient/ServerInvocationHandler.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		400BBDD5CD323274AD0DBE1EF5BCE995 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6349E99A86849D775F7362695504101 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41F1B88A546FACB05BE4FBBE987B5683 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BD281DA5F6B2677760D7BC98FEB0F33 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		29E64B158727B9FCF5D3F23FD9EADAA8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DC0CDAA83FFB348D5F0458514A8924E0 /* Pods_Karaoke.framework */,
+				45B0AC9D736FF4B851DCD06D11E4FDE2 /* SwiftSignalRClient.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2E68923B8661AC9E16813D1BD8D3CD26 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5C9FD0AC6701CDAD0B970E53F324B910 /* SwiftSignalRClient */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		44D5347904CF754D6785B84253F2574A /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		5C9FD0AC6701CDAD0B970E53F324B910 /* SwiftSignalRClient */ = {
+			isa = PBXGroup;
+			children = (
+				EAA66B458289A7A39070DB19364C1EAF /* Connection.swift */,
+				4FBD9D9D4D99E8F8F4B5581C968D3E80 /* DefaultHttpClient.swift */,
+				22E554F2746D643910389E4985591FE9 /* HandshakeProtocol.swift */,
+				7FD25F0202DDB19EEC29CF9C18299EEC /* HttpResponse.swift */,
+				5698FF7760BF0042BAA7A87CF195C358 /* HubConnection.swift */,
+				27B41AA955A0332D8CD065617843A10E /* HubConnectionDelegate.swift */,
+				8A33E2EB841DABD83D9A4AFB78100036 /* HubProtocol.swift */,
+				8BA9BDE0865FDC94BB2A967BF2863738 /* JSONHubProtocol.swift */,
+				FC6A9597EA6AEA90A5A4E7933BA2964D /* ServerInvocationHandler.swift */,
+				B960897BFF5769FEAE9A188BC2C19CD2 /* SignalRError.swift */,
+				561E2E795686337B992E6E26200E64F3 /* SocketConnection.swift */,
+				532BB30500FA82BE44A8B36D57142E37 /* SocketConnectionDelegate.swift */,
+				D1CF293643D6A8D6EF2E82772DAF6E4B /* StreamHandle.swift */,
+				F70306BC1F50A2932A7B4D180597936A /* Transport.swift */,
+				AAFB1344CBE61CFD7E84B13461E551F0 /* TransportDelegate.swift */,
+				8E01730590F074C5EF2ED1FF06FC6C4B /* TypeConverter.swift */,
+				F9AD813462DF316C7C85246FECD5EE4D /* Util.swift */,
+				2B43AD9C5728EECF773378A830974597 /* WebSocket.swift */,
+				9866BF13CAA03570375964ABE084509A /* WebsocketsTransport.swift */,
+				B6FD0C1F7FF149686108027BF4DD16E6 /* Support Files */,
+			);
+			path = SwiftSignalRClient;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				2E68923B8661AC9E16813D1BD8D3CD26 /* Pods */,
+				29E64B158727B9FCF5D3F23FD9EADAA8 /* Products */,
+				BA9893D1E59E442E8891F9C7808A770C /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		B6FD0C1F7FF149686108027BF4DD16E6 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F11FCECB10824D7E60E1465A1E6737B5 /* Info.plist */,
+				764944CB72EDB2153A7DD1611E57933F /* SwiftSignalRClient.modulemap */,
+				E90BBAB61FE734A7FD5828C807C77183 /* SwiftSignalRClient.xcconfig */,
+				A1DCBCF36C9B1281BE57C961A228A261 /* SwiftSignalRClient-dummy.m */,
+				A86B9F46A06EAF9C5CFBAE0D0DE8CD9B /* SwiftSignalRClient-prefix.pch */,
+				3652DD9344F49427CE99DD9718CC2EE2 /* SwiftSignalRClient-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SwiftSignalRClient";
+			sourceTree = "<group>";
+		};
+		BA9893D1E59E442E8891F9C7808A770C /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F5A2459ED5FD7CD44B461DF5264B18D3 /* Pods-Karaoke */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				44D5347904CF754D6785B84253F2574A /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F5A2459ED5FD7CD44B461DF5264B18D3 /* Pods-Karaoke */ = {
+			isa = PBXGroup;
+			children = (
+				4CE4A54754A175C383178A679D4F181D /* Info.plist */,
+				5045F09233F8DD5519BAC0BEEFE4E5EB /* Pods-Karaoke.modulemap */,
+				28BC51E6E8BEF1595681B8D2915DBB6A /* Pods-Karaoke-acknowledgements.markdown */,
+				A5774D4A3A8946EE40309F72C1DA4D2C /* Pods-Karaoke-acknowledgements.plist */,
+				90467216CF8D5B1F729418BDDBDBB30C /* Pods-Karaoke-dummy.m */,
+				9162DA2424458D8CB04CE79384CFF89F /* Pods-Karaoke-frameworks.sh */,
+				B377D3DF9AFF0252402ECC272115E361 /* Pods-Karaoke-resources.sh */,
+				F8C911C67E5E98DC4FEEB00382402A8B /* Pods-Karaoke-umbrella.h */,
+				DD99C61784C8E806A4A5981CC5D59142 /* Pods-Karaoke.debug.xcconfig */,
+				F43F32E942610897E6FD05CF3C0DD466 /* Pods-Karaoke.release.xcconfig */,
+			);
+			name = "Pods-Karaoke";
+			path = "Target Support Files/Pods-Karaoke";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		6C06A933A4EA7EEC1D2F89CE3F449E41 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDAFC2A6C647B0836246977BBF21A400 /* Pods-Karaoke-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE650896AEE8429C661E1E0A2B9A120A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0EE4535AD4700D8A595551119C4A7363 /* SwiftSignalRClient-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		4E33E3D1A2B5063630B467D7807AADBE /* Pods-Karaoke */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 34AF0213D5A81F38AFEA53759DB2F2D7 /* Build configuration list for PBXNativeTarget "Pods-Karaoke" */;
+			buildPhases = (
+				6C06A933A4EA7EEC1D2F89CE3F449E41 /* Headers */,
+				2B1DE3182730ABDF2F7AC158015AA0DF /* Sources */,
+				41F1B88A546FACB05BE4FBBE987B5683 /* Frameworks */,
+				6F2ACBEB4452630E861869F7EF20ABFC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1B7559320ABEA3081745C44B07A36227 /* PBXTargetDependency */,
+			);
+			name = "Pods-Karaoke";
+			productName = "Pods-Karaoke";
+			productReference = DC0CDAA83FFB348D5F0458514A8924E0 /* Pods_Karaoke.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		EF3173F2E65C5733C51853C700EE0835 /* SwiftSignalRClient */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 74303BD579511BB9427E31C6B8F8353F /* Build configuration list for PBXNativeTarget "SwiftSignalRClient" */;
+			buildPhases = (
+				CE650896AEE8429C661E1E0A2B9A120A /* Headers */,
+				81669355BD96C076C196937539800372 /* Sources */,
+				400BBDD5CD323274AD0DBE1EF5BCE995 /* Frameworks */,
+				BC229ABBE1CDA8CAB798EF52947A8894 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftSignalRClient;
+			productName = SwiftSignalRClient;
+			productReference = 45B0AC9D736FF4B851DCD06D11E4FDE2 /* SwiftSignalRClient.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 1120;
+				TargetAttributes = {
+					EF3173F2E65C5733C51853C700EE0835 = {
+						LastSwiftMigration = 1160;
+					};
+				};
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 29E64B158727B9FCF5D3F23FD9EADAA8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4E33E3D1A2B5063630B467D7807AADBE /* Pods-Karaoke */,
+				EF3173F2E65C5733C51853C700EE0835 /* SwiftSignalRClient */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6F2ACBEB4452630E861869F7EF20ABFC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC229ABBE1CDA8CAB798EF52947A8894 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2B1DE3182730ABDF2F7AC158015AA0DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB4496CD2237E7E89CE99FFD10716546 /* Pods-Karaoke-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81669355BD96C076C196937539800372 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A81AA88FE224B1B218584A52ACAFCBF8 /* Connection.swift in Sources */,
+				B87C7A8D9B83995AB1C9948A9D6F0F3B /* DefaultHttpClient.swift in Sources */,
+				E2A6B5B4900CF240884EE9A800E229A6 /* HandshakeProtocol.swift in Sources */,
+				15F267643BF98D6EFB32CD988CD7D0D0 /* HttpResponse.swift in Sources */,
+				8451C5C9797432364151C075BBE202DF /* HubConnection.swift in Sources */,
+				137A64FEA05653298B49AE514DBF2F93 /* HubConnectionDelegate.swift in Sources */,
+				B8A1897337CD9F3A437E1037D99AF279 /* HubProtocol.swift in Sources */,
+				36604A76909B1FEE4648435CE0626B1E /* JSONHubProtocol.swift in Sources */,
+				31768264EA08FEF8C9C118C66D25116C /* ServerInvocationHandler.swift in Sources */,
+				130384523D6BA6DAC16AA5220E519709 /* SignalRError.swift in Sources */,
+				DF524094DB65975ABCED578B34A4489C /* SocketConnection.swift in Sources */,
+				F7EA5AB853B3AD216AB941DF813A350E /* SocketConnectionDelegate.swift in Sources */,
+				1C90550B2EBFB254B33650A1ED4A7F63 /* StreamHandle.swift in Sources */,
+				2E51884C836B75FC0D7CD6C77047D9E3 /* SwiftSignalRClient-dummy.m in Sources */,
+				352E80A5B8357FB5DEDC710407B78434 /* Transport.swift in Sources */,
+				6C4E9794112FBB4EB4FA758E352FCD94 /* TransportDelegate.swift in Sources */,
+				FA74C7C9F0A4E8DFEDE3D8FB709B0A0F /* TypeConverter.swift in Sources */,
+				2660FF5EB5E81E806F879DA8FDBF7BB8 /* Util.swift in Sources */,
+				C519A08A0FFC6D4B3CD68B8586FB20D4 /* WebSocket.swift in Sources */,
+				944E462D7DE84BDDEDE98D400FA907AA /* WebsocketsTransport.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1B7559320ABEA3081745C44B07A36227 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftSignalRClient;
+			target = EF3173F2E65C5733C51853C700EE0835 /* SwiftSignalRClient */;
+			targetProxy = 1061F397B318345D5F4CF2ADD64B099B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		15F01411F666D5DD321B7B0EF0FC2669 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E90BBAB61FE734A7FD5828C807C77183 /* SwiftSignalRClient.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftSignalRClient/SwiftSignalRClient-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftSignalRClient/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwiftSignalRClient/SwiftSignalRClient.modulemap";
+				PRODUCT_MODULE_NAME = SwiftSignalRClient;
+				PRODUCT_NAME = SwiftSignalRClient;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		31B296040015304182EDDB950653790F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DD99C61784C8E806A4A5981CC5D59142 /* Pods-Karaoke.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Karaoke/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Karaoke/Pods-Karaoke.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6E4B71A0075BB2C7CA3B47A60AE16010 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		6F9B31AE57E7A85109DB2B6468EAA420 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F43F32E942610897E6FD05CF3C0DD466 /* Pods-Karaoke.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Karaoke/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Karaoke/Pods-Karaoke.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		836CB2621A7878EF297703F749463C20 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E90BBAB61FE734A7FD5828C807C77183 /* SwiftSignalRClient.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftSignalRClient/SwiftSignalRClient-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftSignalRClient/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwiftSignalRClient/SwiftSignalRClient.modulemap";
+				PRODUCT_MODULE_NAME = SwiftSignalRClient;
+				PRODUCT_NAME = SwiftSignalRClient;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E81B6FFA0D15F91844D045AA4F979589 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E81B6FFA0D15F91844D045AA4F979589 /* Debug */,
+				6E4B71A0075BB2C7CA3B47A60AE16010 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		34AF0213D5A81F38AFEA53759DB2F2D7 /* Build configuration list for PBXNativeTarget "Pods-Karaoke" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				31B296040015304182EDDB950653790F /* Debug */,
+				6F9B31AE57E7A85109DB2B6468EAA420 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		74303BD579511BB9427E31C6B8F8353F /* Build configuration list for PBXNativeTarget "SwiftSignalRClient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				836CB2621A7878EF297703F749463C20 /* Debug */,
+				15F01411F666D5DD321B7B0EF0FC2669 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

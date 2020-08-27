@@ -1,0 +1,2496 @@
+ [
+  {
+  "id": 58,
+  "songId": 144432,
+  "song": {
+  "id": 144432,
+  "title": "Ray Of Light",
+  "categoryId": 260,
+  "category": null,
+  "artistId": 36335,
+  "artist": {
+  "id": 36335,
+  "name": "Madonna",
+  "songs": [
+            {
+            "id": 144391,
+            "title": "Intervention",
+            "categoryId": 260,
+            "category": null,
+            "artistId": 36335,
+            "categories.name": null,
+            "tags.name": null,
+            "content": null
+            }
+            ]
+  },
+  "categories.name": null,
+  "tags.name": null,
+  "content": null
+  },
+  "singerName": "Charlie Lindgren",
+  "requestTime": "2017-11-14T06:24:32.0443345",
+  "notes": null
+  },
+  {
+  "id": 59,
+  "songId": 131993,
+  "song": {
+  "id": 131993,
+  "title": "Phenomenal",
+  "categoryId": 270,
+  "category": null,
+  "artistId": 36202,
+  "artist": {
+  "id": 36202,
+  "name": "Eminem",
+  "songs": []
+  },
+  "categories.name": null,
+  "tags.name": null,
+  "content": null
+  },
+  "singerName": "Claude Julien",
+  "requestTime": "2017-11-14T06:25:15.2774986",
+  "notes": "Ralentir un peu"
+  },
+  {
+  "id": 60,
+  "songId": 134810,
+  "song": {
+  "id": 134810,
+  "title": "I Left My Heart In San Francisco",
+  "categoryId": 253,
+  "category": null,
+  "artistId": 37130,
+  "artist": {
+  "id": 37130,
+  "name": "Tony Bennett",
+  "songs": []
+  },
+  "categories.name": null,
+  "tags.name": null,
+  "content": null
+  },
+  "singerName": "Teuvo Teravainen",
+  "requestTime": "2017-11-14T06:25:55.3181136",
+  "notes": "Desire souhaiter bonne fete a quelqu'un"
+  },
+  {
+  "id": 61,
+  "songId": 161583,
+  "song": {
+  "id": 161583,
+  "title": "Dunkie Butt",
+  "categoryId": 252,
+  "category": null,
+  "artistId": 43908,
+  "artist": {
+  "id": 43908,
+  "name": "12 Gauge",
+  "songs": []
+  },
+  "categories.name": null,
+  "tags.name": null,
+  "content": null
+  },
+  "singerName": "Theresa May",
+  "requestTime": "2017-11-14T06:26:20.7435041",
+  "notes": null
+  },
+  {
+  "id": 62,
+  "songId": 148515,
+  "song": {
+  "id": 148515,
+  "title": "Control",
+  "categoryId": 275,
+  "category": null,
+  "artistId": 36167,
+  "artist": {
+  "id": 36167,
+  "name": "Janet Jackson",
+  "songs": []
+  },
+  "categories.name": null,
+  "tags.name": null,
+  "content": null
+  },
+  "singerName": "Justin Trudeau",
+  "requestTime": "2017-11-14T06:30:47.4676009",
+  "notes": null
+  },
+  {
+  "id": 63,
+  "songId": 152989,
+  "song": {
+  "id": 152989,
+  "title": "I Guess That’s Why They Call It The Blues",
+  "categoryId": 270,
+  "category": null,
+  "artistId": 41718,
+  "artist": {
+  "id": 41718,
+  "name": "Elton John",
+  "songs": []
+  },
+  "categories.name": null,
+  "tags.name": null,
+  "content": null
+  },
+  "singerName": "Melissa Blais",
+  "requestTime": "2017-11-14T06:31:16.4580462",
+  "notes": null
+  },
+  {
+  "id": 64,
+  "songId": 144994,
+  "song": {
+  "id": 144994,
+  "title": "Polyester Bride",
+  "categoryId": 262,
+  "category": null,
+  "artistId": 39747,
+  "artist": {
+  "id": 39747,
+  "name": "Liz Phair",
+  "songs": []
+  },
+  "categories.name": null,
+  "tags.name": null,
+  "content": null
+  },
+  "singerName": "Ghyslain Morissette",
+  "requestTime": "2017-11-14T06:31:39.3733982",
+  "notes": null
+  },
+  {
+  "id": 65,
+  "songId": 158121,
+  "song": {
+  "id": 158121,
+  "title": "La Chanson Du Quêteux",
+  "categoryId": 273,
+  "category": null,
+  "artistId": 35999,
+  "artist": {
+  "id": 35999,
+  "name": "Bottine Souriante",
+  "songs": [
+            {
+            "id": 158125,
+            "title": "La Tourtière",
+            "categoryId": 273,
+            "category": null,
+            "artistId": 35999,
+            "categories.name": null,
+            "tags.name": null,
+            "content": null
+            }
+            ]
+  },
+  "categories.name": null,
+  "tags.name": null,
+  "content": null
+  },
+  "singerName": "Francois Blais",
+  "requestTime": "2017-11-14T06:32:19.3640124",
+  "notes": null
+  },
+  {
+  "id": 66,
+  "songId": 133409,
+  "song": {
+  "id": 133409,
+  "title": "Squeeze Box",
+  "categoryId": 263,
+  "category": null,
+  "artistId": 36795,
+  "artist": {
+  "id": 36795,
+  "name": "Who",
+  "songs": []
+  },
+  "categories.name": null,
+  "tags.name": null,
+  "content": null
+  },
+  "singerName": "Dominique Leduc et Johanie Blackburn-Julien",
+  "requestTime": "2017-11-14T06:33:12.9773359",
+  "notes": null
+  },
+  {
+  "id": 67,
+  "songId": 159778,
+  "song": {
+  "id": 159778,
+  "title": "Who Let The Dogs Out",
+  "categoryId": 273,
+  "category": null,
+  "artistId": 43401,
+  "artist": {
+  "id": 43401,
+  "name": "Baha Men",
+  "songs": []
+  },
+  "categories.name": null,
+  "tags.name": null,
+  "content": null
+  },
+  "singerName": "Julie Marcoux",
+  "requestTime": "2017-11-14T06:33:53.8429636",
+  "notes": null
+  },
+  {
+  "id": 68,
+  "songId": 144243,
+  "song": {
+  "id": 144243,
+  "title": "Dans Ma Belle Petite Maison Dans La Vallée",
+  "categoryId": 260,
+  "category": null,
+  "artistId": 39552,
+  "artist": {
+  "id": 39552,
+  "name": "Marcel Martel",
+  "songs": []
+  },
+  "categories.name": null,
+  "tags.name": null,
+  "content": null
+  },
+  "singerName": "Robert...",
+  "requestTime": "2017-11-14T06:34:13.14076",
+  "notes": null
+  },
+  {
+  "id": 69,
+  "songId": 133239,
+  "song": {
+  "id": 133239,
+  "title": "Pure Imagination",
+  "categoryId": 263,
+  "category": null,
+  "artistId": 36741,
+  "artist": {
+  "id": 36741,
+  "name": "Willy Wonka & The Chocolate Factory",
+  "songs": []
+  },
+  "categories.name": null,
+  "tags.name": null,
+  "content": null
+  },
+  "singerName": "Sylvain Rochon",
+  "requestTime": "2017-11-14T06:34:51.5588501",
+  "notes": "plus lente..."
+  },
+  {
+  "id": 70,
+  "songId": 148384,
+  "song": {
+  "id": 148384,
+  "title": "1990",
+  "categoryId": 275,
+  "category": null,
+  "artistId": 36289,
+  "artist": {
+  "id": 36289,
+  "name": "Jean Leloup",
+  "songs": []
+  },
+  "categories.name": null,
+  "tags.name": null,
+  "content": null
+  },
+  "singerName": "Genevieve Leclerc",
+  "requestTime": "2017-11-14T06:35:18.2842606",
+  "notes": null
+  },
+  {
+  "id": 71,
+  "songId": 144129,
+  "song": {
+  "id": 144129,
+  "title": "Viens Viens",
+  "categoryId": 260,
+  "category": null,
+  "artistId": 39520,
+  "artist": {
+  "id": 39520,
+  "name": "Marie Laforet",
+  "songs": []
+  },
+  "categories.name": null,
+  "tags.name": null,
+  "content": null
+  },
+  "singerName": "Jessse Lacey",
+  "requestTime": "2017-11-14T06:35:46.1396885",
+  "notes": null
+  },
+  {
+  "id": 72,
+  "songId": 155205,
+  "song": {
+  "id": 155205,
+  "title": "Pictures Of You",
+  "categoryId": 272,
+  "category": null,
+  "artistId": 42335,
+  "artist": {
+  "id": 42335,
+  "name": "Cure",
+  "songs": []
+  },
+  "categories.name": null,
+  "tags.name": null,
+  "content": null
+  },
+  "singerName": "Rene Lapierre",
+  "requestTime": "2017-11-14T06:36:23.5277627",
+  "notes": null
+  },
+  {
+  "id": 73,
+  "songId": 152886,
+  "song": {
+  "id": 152886,
+  "title": "Amazing Grace",
+  "categoryId": 270,
+  "category": null,
+  "artistId": 35955,
+  "artist": {
+  "id": 35955,
+  "name": "Elvis Presley",
+  "songs": [
+            {
+            "id": 152587,
+            "title": "The King Is Dead",
+            "categoryId": 270,
+            "category": null,
+            "artistId": 35955,
+            "categories.name": null,
+            "tags.name": null,
+            "content": null
+            },
+            {
+            "id": 152771,
+            "title": "Early Morning Rain",
+            "categoryId": 270,
+            "category": null,
+            "artistId": 35955,
+            "categories.name": null,
+            "tags.name": null,
+            "content": null
+            },
+            {
+            "id": 152681,
+            "title": "Little Egypt",
+            "categoryId": 270,
+            "category": null,
+            "artistId": 35955,
+            "categories.name": null,
+            "tags.name": null,
+            "content": null
+            }
+            ]
+  },
+  "categories.name": null,
+  "tags.name": null,
+  "content": null
+  },
+  "singerName": "Mr. Fecteau",
+  "requestTime": "2017-11-14T06:36:45.1780953",
+  "notes": null
+  },
+  {
+  "id": 74,
+  "songId": 156002,
+  "song": {
+  "id": 156002,
+  "title": "Aide-Moi À Passer La Nuit",
+  "categoryId": 272,
+  "category": null,
+  "artistId": 42512,
+  "artist": {
+  "id": 42512,
+  "name": "Claude Valade",
+  "songs": []
+  },
+  "categories.name": null,
+  "tags.name": null,
+  "content": null
+  },
+  "singerName": "Roch de Richelieu",
+  "requestTime": "2017-11-14T06:37:05.0134",
+  "notes": null
+  },
+  {
+  "id": 75,
+  "songId": 142723,
+  "song": {
+  "id": 142723,
+  "title": "Trois Milliards De Gens Sur Terre",
+  "categoryId": 260,
+  "category": null,
+  "artistId": 39168,
+  "artist": {
+  "id": 39168,
+  "name": "Mireille Mathieu",
+  "songs": []
+  },
+  "categories.name": null,
+  "tags.name": null,
+  "content": null
+  },
+  "singerName": "Renee Martel",
+  "requestTime": "2017-11-14T06:37:32.9088284",
+  "notes": null
+  },
+  {
+  "id": 76,
+  "songId": 152587,
+  "song": {
+  "id": 152587,
+  "title": "The King Is Dead",
+  "categoryId": 270,
+  "category": null,
+  "artistId": 35955,
+  "artist": {
+  "id": 35955,
+  "name": "Elvis Presley",
+  "songs": [
+            {
+            "id": 152886,
+            "title": "Amazing Grace",
+            "categoryId": 270,
+            "category": null,
+            "artistId": 35955,
+            "categories.name": null,
+            "tags.name": null,
+            "content": null
+            },
+            {
+            "id": 152771,
+            "title": "Early Morning Rain",
+            "categoryId": 270,
+            "category": null,
+            "artistId": 35955,
+            "categories.name": null,
+            "tags.name": null,
+            "content": null
+            },
+            {
+            "id": 152681,
+            "title": "Little Egypt",
+            "categoryId": 270,
+            "category": null,
+            "artistId": 35955,
+            "categories.name": null,
+            "tags.name": null,
+            "content": null
+            }
+            ]
+  },
+  "categories.name": null,
+  "tags.name": null,
+  "content": null
+  },
+  "singerName": "Michaelle Jean",
+  "requestTime": "2017-11-14T06:39:02.596206",
+  "notes": null
+  },
+  {
+  "id": 77,
+  "songId": 132150,
+  "song": {
+  "id": 132150,
+  "title": "On Ira",
+  "categoryId": 276,
+  "category": null,
+  "artistId": 36290,
+  "artist": {
+  "id": 36290,
+  "name": "Zaz",
+  "songs": []
+  },
+  "categories.name": null,
+  "tags.name": null,
+  "content": null
+  },
+  "singerName": "Bruno Lebrun",
+  "requestTime": "2017-11-14T06:39:23.3365246",
+  "notes": null
+  },
+  {
+  "id": 78,
+  "songId": 156956,
+  "song": {
+  "id": 156956,
+  "title": "Vole",
+  "categoryId": 272,
+  "category": null,
+  "artistId": 42759,
+  "artist": {
+  "id": 42759,
+  "name": "Celine Dion",
+  "songs": []
+  },
+  "categories.name": null,
+  "tags.name": null,
+  "content": null
+  },
+  "singerName": "Andreanne Larouche",
+  "requestTime": "2017-11-14T06:40:22.5099335",
+  "notes": "J'aimerais l'augmenter de deux tons...  Si on peut faire un test avant, ce serait bien"
+  },
+  {
+  "id": 79,
+  "songId": 160142,
+  "song": {
+  "id": 160142,
+  "title": "Fluorescent Adolescent",
+  "categoryId": 274,
+  "category": null,
+  "artistId": 36400,
+  "artist": {
+  "id": 36400,
+  "name": "Arctic Monkeys",
+  "songs": []
+  },
+  "categories.name": null,
+  "tags.name": null,
+  "content": null
+  },
+  "singerName": "Voleur sans souliers",
+  "requestTime": "2017-11-14T06:41:05.9306004",
+  "notes": "Merci beaucoup!"
+  },
+  {
+  "id": 80,
+  "songId": 132075,
+  "song": {
+  "id": 132075,
+  "title": "This Is What You Came Here For",
+  "categoryId": 272,
+  "category": null,
+  "artistId": 36262,
+  "artist": {
+  "id": 36262,
+  "name": "Calvin Harris & Rihanna",
+  "songs": []
+  },
+  "categories.name": null,
+  "tags.name": null,
+  "content": null
+  },
+  "singerName": "Laurie Dufresne",
+  "requestTime": "2017-11-14T06:41:41.5586477",
+  "notes": null
+  },
+  {
+  "id": 81,
+  "songId": 139049,
+  "song": {
+  "id": 139049,
+  "title": "Le Train Du Nord",
+  "categoryId": 255,
+  "category": null,
+  "artistId": 38202,
+  "artist": {
+  "id": 38202,
+  "name": "Richard Seguin",
+  "songs": []
+  },
+  "categories.name": null,
+  "tags.name": null,
+  "content": null
+  },
+  "singerName": "Gladys Briscolle",
+  "requestTime": "2017-11-14T06:42:29.7018871",
+  "notes": null
+  },
+  {
+  "id": 82,
+  "songId": 139225,
+  "song": {
+  "id": 139225,
+  "title": "La Belle Gaspésie",
+  "categoryId": 255,
+  "category": null,
+  "artistId": 38240,
+  "artist": {
+  "id": 38240,
+  "name": "Renée Martel",
+  "songs": []
+  },
+  "categories.name": null,
+  "tags.name": null,
+  "content": null
+  },
+  "singerName": "Kevin Spacey",
+  "requestTime": "2017-11-14T06:43:01.2798722",
+  "notes": "Avant de faire ma thérapie"
+  },
+  {
+  "id": 83,
+  "songId": 150584,
+  "song": {
+  "id": 150584,
+  "title": "I Want Your Sex",
+  "categoryId": 268,
+  "category": null,
+  "artistId": 36362,
+  "artist": {
+  "id": 36362,
+  "name": "George Michael",
+  "songs": []
+  },
+  "categories.name": null,
+  "tags.name": null,
+  "content": null
+  },
+  "singerName": "Kevin Spacey",
+  "requestTime": "2017-11-14T06:43:58.0982449",
+  "notes": "La mettre plus tard en soirée SVP"
+  },
+  {
+  "id": 84,
+  "songId": 135276,
+  "song": {
+  "id": 135276,
+  "title": "Nowhere",
+  "categoryId": 253,
+  "category": null,
+  "artistId": 37231,
+  "artist": {
+  "id": 37231,
+  "name": "Therapy",
+  "songs": []
+  },
+  "categories.name": null,
+  "tags.name": null,
+  "content": null
+  },
+  "singerName": "Tiger Woods",
+  "requestTime": "2017-11-14T06:45:00.9692106",
+  "notes": null
+  },
+  {
+  "id": 85,
+  "songId": 150234,
+  "song": {
+  "id": 150234,
+  "title": "Indépendante Ou Dépendante",
+  "categoryId": 268,
+  "category": null,
+  "artistId": 35943,
+  "artist": {
+  "id": 35943,
+  "name": "Ginette Reno",
+  "songs": [
+            {
+            "id": 150255,
+            "title": "Roger",
+            "categoryId": 268,
+            "category": null,
+            "artistId": 35943,
+            "categories.name": null,
+            "tags.name": null,
+            "content": null
+            },
+            {
+            "id": 150260,
+            "title": "Paris Québec",
+            "categoryId": 268,
+            "category": null,
+            "artistId": 35943,
+            "categories.name": null,
+            "tags.name": null,
+            "content": null
+            }
+            ]
+  },
+  "categories.name": null,
+  "tags.name": null,
+  "content": null
+  },
+  "singerName": "Michael Douglas",
+  "requestTime": "2017-11-14T06:45:12.3718857",
+  "notes": null
+  },
+  {
+  "id": 86,
+  "songId": 140282,
+  "song": {
+  "id": 140282,
+  "title": "Dans La Forêt Des Mal Aimés",
+  "categoryId": 256,
+  "category": null,
+  "artistId": 38525,
+  "artist": {
+  "id": 38525,
+  "name": "Pierre Lapointe",
+  "songs": []
+  },
+  "categories.name": null,
+  "tags.name": null,
+  "content": null
+  },
+  "singerName": "Doc. Mailloux",
+  "requestTime": "2017-11-14T06:45:34.6922285",
+  "notes": null
+  },
+  {
+  "id": 87,
+  "songId": 138062,
+  "song": {
+  "id": 138062,
+  "title": "Toute La Pluie Tombe Sur Moi",
+  "categoryId": 254,
+  "category": null,
+  "artistId": 37974,
+  "artist": {
+  "id": 37974,
+  "name": "Sacha Distel",
+  "songs": []
+  },
+  "categories.name": null,
+  "tags.name": null,
+  "content": null
+  },
+  "singerName": "Yves Rioux",
+  "requestTime": "2017-11-14T06:46:22.6079645",
+  "notes": "Me le dire quelques minutes avant, je travaille dans la base 3"
+  },
+  {
+  "id": 88,
+  "songId": 131449,
+  "song": {
+  "id": 131449,
+  "title": "Castle On The Hill [Z Karaoke]",
+  "categoryId": 257,
+  "category": null,
+  "artistId": 35958,
+  "artist": {
+  "id": 35958,
+  "name": "Ed Sheeran",
+  "songs": []
+  },
+  "categories.name": null,
+  "tags.name": null,
+  "content": null
+  },
+  "singerName": "Nut Ricap",
+  "requestTime": "2017-11-14T06:47:14.1462561",
+  "notes": null
+  },
+  {
+  "id": 89,
+  "songId": 133024,
+  "song": {
+  "id": 133024,
+  "title": "Cap Enragé",
+  "categoryId": 276,
+  "category": null,
+  "artistId": 36652,
+  "artist": {
+  "id": 36652,
+  "name": "Zachary Richard",
+  "songs": []
+  },
+  "categories.name": null,
+  "tags.name": null,
+  "content": null
+  },
+  "singerName": "Mylene Bouchard",
+  "requestTime": "2017-11-14T06:47:42.654194",
+  "notes": "Avec Hugo Bouchard"
+  },
+  {
+  "id": 90,
+  "songId": 131189,
+  "song": {
+  "id": 131189,
+  "title": "Let It Snow [NOEL]",
+  "categoryId": 257,
+  "category": null,
+  "artistId": 35877,
+  "artist": {
+  "id": 35877,
+  "name": "Noël Traditionnel",
+  "songs": [
+            {
+            "id": 131230,
+            "title": "Une Poupee Pour Noël [NOEL]",
+            "categoryId": 257,
+            "category": null,
+            "artistId": 35877,
+            "categories.name": null,
+            "tags.name": null,
+            "content": null
+            },
+            {
+            "id": 131214,
+            "title": "Les Cadeaux D’amour [NOEL]",
+            "categoryId": 257,
+            "category": null,
+            "artistId": 35877,
+            "categories.name": null,
+            "tags.name": null,
+            "content": null
+            }
+            ]
+  },
+  "categories.name": null,
+  "tags.name": null,
+  "content": null
+  },
+  "singerName": "Pere Noel",
+  "requestTime": "2017-11-14T06:47:57.626924",
+  "notes": "ha ha ha"
+  },
+  {
+  "id": 91,
+  "songId": 154224,
+  "song": {
+  "id": 154224,
+  "title": "Chain Reaction",
+  "categoryId": 271,
+  "category": null,
+  "artistId": 42048,
+  "artist": {
+  "id": 42048,
+  "name": "Diana Ross",
+  "songs": []
+  },
+  "categories.name": null,
+  "tags.name": null,
+  "content": null
+  },
+  "singerName": "M. Lincolm",
+  "requestTime": "2017-11-14T06:48:38.8100566",
+  "notes": null
+  },
+  {
+  "id": 92,
+  "songId": 131886,
+  "song": {
+  "id": 131886,
+  "title": "Nothing Is Promised",
+  "categoryId": 260,
+  "category": null,
+  "artistId": 36120,
+  "artist": {
+  "id": 36120,
+  "name": "Mike Will Made-It Feat. Rihanna",
+  "songs": []
+  },
+  "categories.name": null,
+  "tags.name": null,
+  "content": null
+  },
+  "singerName": "Manon Arseneault",
+  "requestTime": "2017-11-14T06:48:59.7853787",
+  "notes": null
+  },
+  {
+  "id": 93,
+  "songId": 140856,
+  "song": {
+  "id": 140856,
+  "title": "Senior Météo",
+  "categoryId": 256,
+  "category": null,
+  "artistId": 38668,
+  "artist": {
+  "id": 38668,
+  "name": "Patrick Zabbé",
+  "songs": []
+  },
+  "categories.name": null,
+  "tags.name": null,
+  "content": null
+  },
+  "singerName": "Joanie Gonthier",
+  "requestTime": "2017-11-14T06:49:44.3210628",
+  "notes": null
+  },
+  {
+  "id": 94,
+  "songId": 132196,
+  "song": {
+  "id": 132196,
+  "title": "Mécanique Générale",
+  "categoryId": 256,
+  "category": null,
+  "artistId": 36317,
+  "artist": {
+  "id": 36317,
+  "name": "Patrice Michaud",
+  "songs": []
+  },
+  "categories.name": null,
+  "tags.name": null,
+  "content": null
+  },
+  "singerName": "Donald Trump",
+  "requestTime": "2017-11-14T06:50:16.1815522",
+  "notes": null
+  },
+  {
+  "id": 95,
+  "songId": 135310,
+  "song": {
+  "id": 135310,
+  "title": "Six Degrees Of Separation Clean",
+  "categoryId": 253,
+  "category": null,
+  "artistId": 37245,
+  "artist": {
+  "id": 37245,
+  "name": "The Script",
+  "songs": []
+  },
+  "categories.name": null,
+  "tags.name": null,
+  "content": null
+  },
+  "singerName": "Anaheim Teenu",
+  "requestTime": "2017-11-14T06:50:29.9692639",
+  "notes": null
+  },
+  {
+  "id": 96,
+  "songId": 149524,
+  "song": {
+  "id": 149524,
+  "title": "Recipe For Love",
+  "categoryId": 267,
+  "category": null,
+  "artistId": 40991,
+  "artist": {
+  "id": 40991,
+  "name": "Harry Connick Jr.",
+  "songs": []
+  },
+  "categories.name": null,
+  "tags.name": null,
+  "content": null
+  },
+  "singerName": "Benny et Co.",
+  "requestTime": "2017-11-14T06:51:04.0122868",
+  "notes": "Ca va chauffer!"
+  },
+  {
+  "id": 97,
+  "songId": 142085,
+  "song": {
+  "id": 142085,
+  "title": "Le Temps Qu’il Nous Reste",
+  "categoryId": 259,
+  "category": null,
+  "artistId": 38998,
+  "artist": {
+  "id": 38998,
+  "name": "Nana Mouskouri",
+  "songs": []
+  },
+  "categories.name": null,
+  "tags.name": null,
+  "content": null
+  },
+  "singerName": "Aurora ",
+  "requestTime": "2017-11-14T06:51:43.798898",
+  "notes": null
+  },
+  {
+  "id": 98,
+  "songId": 159983,
+  "song": {
+  "id": 159983,
+  "title": "Day It Rained Forever",
+  "categoryId": 274,
+  "category": null,
+  "artistId": 36277,
+  "artist": {
+  "id": 36277,
+  "name": "Aurora",
+  "songs": []
+  },
+  "categories.name": null,
+  "tags.name": null,
+  "content": null
+  },
+  "singerName": "Nicolas Sarkozy",
+  "requestTime": "2017-11-14T06:52:02.4716848",
+  "notes": null
+  },
+  {
+  "id": 99,
+  "songId": 131230,
+  "song": {
+  "id": 131230,
+  "title": "Une Poupee Pour Noël [NOEL]",
+  "categoryId": 257,
+  "category": null,
+  "artistId": 35877,
+  "artist": {
+  "id": 35877,
+  "name": "Noël Traditionnel",
+  "songs": [
+            {
+            "id": 131189,
+            "title": "Let It Snow [NOEL]",
+            "categoryId": 257,
+            "category": null,
+            "artistId": 35877,
+            "categories.name": null,
+            "tags.name": null,
+            "content": null
+            },
+            {
+            "id": 131214,
+            "title": "Les Cadeaux D’amour [NOEL]",
+            "categoryId": 257,
+            "category": null,
+            "artistId": 35877,
+            "categories.name": null,
+            "tags.name": null,
+            "content": null
+            }
+            ]
+  },
+  "categories.name": null,
+  "tags.name": null,
+  "content": null
+  },
+  "singerName": "Teo Emoi",
+  "requestTime": "2017-11-14T06:52:15.4543842",
+  "notes": null
+  },
+  {
+  "id": 100,
+  "songId": 131214,
+  "song": {
+  "id": 131214,
+  "title": "Les Cadeaux D’amour [NOEL]",
+  "categoryId": 257,
+  "category": null,
+  "artistId": 35877,
+  "artist": {
+  "id": 35877,
+  "name": "Noël Traditionnel",
+  "songs": [
+            {
+            "id": 131189,
+            "title": "Let It Snow [NOEL]",
+            "categoryId": 257,
+            "category": null,
+            "artistId": 35877,
+            "categories.name": null,
+            "tags.name": null,
+            "content": null
+            },
+            {
+            "id": 131230,
+            "title": "Une Poupee Pour Noël [NOEL]",
+            "categoryId": 257,
+            "category": null,
+            "artistId": 35877,
+            "categories.name": null,
+            "tags.name": null,
+            "content": null
+            }
+            ]
+  },
+  "categories.name": null,
+  "tags.name": null,
+  "content": null
+  },
+  "singerName": "Alex Anthopoulos",
+  "requestTime": "2017-11-14T06:52:36.0622007",
+  "notes": null
+  },
+  {
+  "id": 101,
+  "songId": 150255,
+  "song": {
+  "id": 150255,
+  "title": "Roger",
+  "categoryId": 268,
+  "category": null,
+  "artistId": 35943,
+  "artist": {
+  "id": 35943,
+  "name": "Ginette Reno",
+  "songs": [
+            {
+            "id": 150234,
+            "title": "Indépendante Ou Dépendante",
+            "categoryId": 268,
+            "category": null,
+            "artistId": 35943,
+            "categories.name": null,
+            "tags.name": null,
+            "content": null
+            },
+            {
+            "id": 150260,
+            "title": "Paris Québec",
+            "categoryId": 268,
+            "category": null,
+            "artistId": 35943,
+            "categories.name": null,
+            "tags.name": null,
+            "content": null
+            }
+            ]
+  },
+  "categories.name": null,
+  "tags.name": null,
+  "content": null
+  },
+  "singerName": "Tim Raines",
+  "requestTime": "2017-11-14T06:52:54.5924853",
+  "notes": null
+  },
+  {
+  "id": 102,
+  "songId": 152771,
+  "song": {
+  "id": 152771,
+  "title": "Early Morning Rain",
+  "categoryId": 270,
+  "category": null,
+  "artistId": 35955,
+  "artist": {
+  "id": 35955,
+  "name": "Elvis Presley",
+  "songs": [
+            {
+            "id": 152886,
+            "title": "Amazing Grace",
+            "categoryId": 270,
+            "category": null,
+            "artistId": 35955,
+            "categories.name": null,
+            "tags.name": null,
+            "content": null
+            },
+            {
+            "id": 152587,
+            "title": "The King Is Dead",
+            "categoryId": 270,
+            "category": null,
+            "artistId": 35955,
+            "categories.name": null,
+            "tags.name": null,
+            "content": null
+            },
+            {
+            "id": 152681,
+            "title": "Little Egypt",
+            "categoryId": 270,
+            "category": null,
+            "artistId": 35955,
+            "categories.name": null,
+            "tags.name": null,
+            "content": null
+            }
+            ]
+  },
+  "categories.name": null,
+  "tags.name": null,
+  "content": null
+  },
+  "singerName": "Gerald Major",
+  "requestTime": "2017-11-14T06:53:08.4751986",
+  "notes": null
+  },
+  {
+  "id": 103,
+  "songId": 146209,
+  "song": {
+  "id": 146209,
+  "title": "Kev’s Courtin’ Song",
+  "categoryId": 264,
+  "category": null,
+  "artistId": 40080,
+  "artist": {
+  "id": 40080,
+  "name": "Kevin Bloody Wilson",
+  "songs": []
+  },
+  "categories.name": null,
+  "tags.name": null,
+  "content": null
+  },
+  "singerName": "Annie Prevost",
+  "requestTime": "2017-11-14T06:53:32.8230726",
+  "notes": null
+  },
+  {
+  "id": 104,
+  "songId": 145832,
+  "song": {
+  "id": 145832,
+  "title": "Alejandro",
+  "categoryId": 262,
+  "category": null,
+  "artistId": 35912,
+  "artist": {
+  "id": 35912,
+  "name": "Lady Gaga",
+  "songs": []
+  },
+  "categories.name": null,
+  "tags.name": null,
+  "content": null
+  },
+  "singerName": "Danielle Savard",
+  "requestTime": "2017-11-14T06:53:46.3007796",
+  "notes": null
+  },
+  {
+  "id": 105,
+  "songId": 155195,
+  "song": {
+  "id": 155195,
+  "title": "Girls Just Want To Have Fun",
+  "categoryId": 272,
+  "category": null,
+  "artistId": 42328,
+  "artist": {
+  "id": 42328,
+  "name": "Cyndi Lauper",
+  "songs": []
+  },
+  "categories.name": null,
+  "tags.name": null,
+  "content": null
+  },
+  "singerName": "Danielle Savard",
+  "requestTime": "2017-11-14T06:54:00.2384937",
+  "notes": null
+  },
+  {
+  "id": 106,
+  "songId": 156892,
+  "song": {
+  "id": 156892,
+  "title": "Just Because She Lives There",
+  "categoryId": 272,
+  "category": null,
+  "artistId": 42730,
+  "artist": {
+  "id": 42730,
+  "name": "Chalee Tennison",
+  "songs": []
+  },
+  "categories.name": null,
+  "tags.name": null,
+  "content": null
+  },
+  "singerName": "Rafael Nadal",
+  "requestTime": "2017-11-14T06:54:45.2916857",
+  "notes": null
+  },
+  {
+  "id": 107,
+  "songId": 156575,
+  "song": {
+  "id": 156575,
+  "title": "25 Or 6 To 4",
+  "categoryId": 272,
+  "category": null,
+  "artistId": 42643,
+  "artist": {
+  "id": 42643,
+  "name": "Chicago",
+  "songs": []
+  },
+  "categories.name": null,
+  "tags.name": null,
+  "content": null
+  },
+  "singerName": "Mario Dumont",
+  "requestTime": "2017-11-14T06:55:13.1046129",
+  "notes": null
+  },
+  {
+  "id": 108,
+  "songId": 134505,
+  "song": {
+  "id": 134505,
+  "title": "50 Ways To Say Goodbye",
+  "categoryId": 253,
+  "category": null,
+  "artistId": 35825,
+  "artist": {
+  "id": 35825,
+  "name": "Train",
+  "songs": []
+  },
+  "categories.name": null,
+  "tags.name": null,
+  "content": null
+  },
+  "singerName": "Cam Newton",
+  "requestTime": "2017-11-14T06:55:30.5098802",
+  "notes": null
+  },
+  {
+  "id": 109,
+  "songId": 132221,
+  "song": {
+  "id": 132221,
+  "title": "Immortal",
+  "categoryId": 271,
+  "category": null,
+  "artistId": 36333,
+  "artist": {
+  "id": 36333,
+  "name": "Marina & The Diamonds",
+  "songs": []
+  },
+  "categories.name": null,
+  "tags.name": null,
+  "content": null
+  },
+  "singerName": "Mariane Lapierre",
+  "requestTime": "2017-11-14T06:55:43.840085",
+  "notes": null
+  },
+  {
+  "id": 110,
+  "songId": 144468,
+  "song": {
+  "id": 144468,
+  "title": "Cardiac Arrest",
+  "categoryId": 260,
+  "category": null,
+  "artistId": 39598,
+  "artist": {
+  "id": 39598,
+  "name": "Madness",
+  "songs": []
+  },
+  "categories.name": null,
+  "tags.name": null,
+  "content": null
+  },
+  "singerName": "Lisa Frula",
+  "requestTime": "2017-11-14T06:56:03.4703865",
+  "notes": null
+  },
+  {
+  "id": 111,
+  "songId": 142657,
+  "song": {
+  "id": 142657,
+  "title": "C’est Le Fruit De Notre Amour",
+  "categoryId": 260,
+  "category": null,
+  "artistId": 39135,
+  "artist": {
+  "id": 39135,
+  "name": "Moïra",
+  "songs": []
+  },
+  "categories.name": null,
+  "tags.name": null,
+  "content": null
+  },
+  "singerName": "Richard Lemieux",
+  "requestTime": "2017-11-14T06:56:19.4206315",
+  "notes": null
+  },
+  {
+  "id": 112,
+  "songId": 155616,
+  "song": {
+  "id": 155616,
+  "title": "La Chanson De Lara",
+  "categoryId": 272,
+  "category": null,
+  "artistId": 42433,
+  "artist": {
+  "id": 42433,
+  "name": "Compagnons De La Chanson",
+  "songs": []
+  },
+  "categories.name": null,
+  "tags.name": null,
+  "content": null
+  },
+  "singerName": "Clara Loiseau",
+  "requestTime": "2017-11-14T06:56:36.3033908",
+  "notes": null
+  },
+  {
+  "id": 113,
+  "songId": 134771,
+  "song": {
+  "id": 134771,
+  "title": "Anniversary",
+  "categoryId": 253,
+  "category": null,
+  "artistId": 37114,
+  "artist": {
+  "id": 37114,
+  "name": "Tony Toni Tone",
+  "songs": []
+  },
+  "categories.name": null,
+  "tags.name": null,
+  "content": null
+  },
+  "singerName": "Annick Leclerc",
+  "requestTime": "2017-11-14T06:56:47.258559",
+  "notes": null
+  },
+  {
+  "id": 114,
+  "songId": 131334,
+  "song": {
+  "id": 131334,
+  "title": "Final Song",
+  "categoryId": 257,
+  "category": null,
+  "artistId": 35884,
+  "artist": {
+  "id": 35884,
+  "name": "Mù",
+  "songs": []
+  },
+  "categories.name": null,
+  "tags.name": null,
+  "content": null
+  },
+  "singerName": "Luc Charbonneau",
+  "requestTime": "2017-11-14T06:56:59.7637511",
+  "notes": null
+  },
+  {
+  "id": 115,
+  "songId": 148259,
+  "song": {
+  "id": 148259,
+  "title": "Blue Jean Blues",
+  "categoryId": 275,
+  "category": null,
+  "artistId": 40601,
+  "artist": {
+  "id": 40601,
+  "name": "Jeff Healey Band",
+  "songs": []
+  },
+  "categories.name": null,
+  "tags.name": null,
+  "content": null
+  },
+  "singerName": "Jaune-Attend",
+  "requestTime": "2017-11-14T06:57:29.5317084",
+  "notes": null
+  },
+  {
+  "id": 116,
+  "songId": 132636,
+  "song": {
+  "id": 132636,
+  "title": "Te Hice Mal",
+  "categoryId": 261,
+  "category": null,
+  "artistId": 36515,
+  "artist": {
+  "id": 36515,
+  "name": "Los Temerarios",
+  "songs": []
+  },
+  "categories.name": null,
+  "tags.name": null,
+  "content": null
+  },
+  "singerName": "Bol de Riz",
+  "requestTime": "2017-11-14T06:57:41.6918951",
+  "notes": null
+  },
+  {
+  "id": 117,
+  "songId": 132343,
+  "song": {
+  "id": 132343,
+  "title": "Ma Quale Idea (Version Vidéo)",
+  "categoryId": 265,
+  "category": null,
+  "artistId": 36411,
+  "artist": {
+  "id": 36411,
+  "name": "Pino D’angio",
+  "songs": []
+  },
+  "categories.name": null,
+  "tags.name": null,
+  "content": null
+  },
+  "singerName": "Frederic Desjardins",
+  "requestTime": "2017-11-14T06:58:06.5222765",
+  "notes": null
+  },
+  {
+  "id": 118,
+  "songId": 149120,
+  "song": {
+  "id": 149120,
+  "title": "Vehicle",
+  "categoryId": 266,
+  "category": null,
+  "artistId": 40851,
+  "artist": {
+  "id": 40851,
+  "name": "Ides Of March",
+  "songs": []
+  },
+  "categories.name": null,
+  "tags.name": null,
+  "content": null
+  },
+  "singerName": "M. Lebeau",
+  "requestTime": "2017-11-14T06:58:17.3749432",
+  "notes": null
+  },
+  {
+  "id": 119,
+  "songId": 159400,
+  "song": {
+  "id": 159400,
+  "title": "Le Géant Beaupré",
+  "categoryId": 273,
+  "category": null,
+  "artistId": 36005,
+  "artist": {
+  "id": 36005,
+  "name": "Beau Dommage",
+  "songs": []
+  },
+  "categories.name": null,
+  "tags.name": null,
+  "content": null
+  },
+  "singerName": "Judith Larochelle-Bergeron",
+  "requestTime": "2017-11-14T06:58:41.317811",
+  "notes": null
+  },
+  {
+  "id": 120,
+  "songId": 161145,
+  "song": {
+  "id": 161145,
+  "title": "What Kind Of Love Are You On",
+  "categoryId": 274,
+  "category": null,
+  "artistId": 43796,
+  "artist": {
+  "id": 43796,
+  "name": "Aerosmith",
+  "songs": []
+  },
+  "categories.name": null,
+  "tags.name": null,
+  "content": null
+  },
+  "singerName": "Josephine-Angelina Falardeau-Lavigueur",
+  "requestTime": "2017-11-14T06:59:35.9961508",
+  "notes": null
+  },
+  {
+  "id": 121,
+  "songId": 135542,
+  "song": {
+  "id": 135542,
+  "title": "That’s When You Came Along",
+  "categoryId": 253,
+  "category": null,
+  "artistId": 37312,
+  "artist": {
+  "id": 37312,
+  "name": "Tara Lyn Hart",
+  "songs": []
+  },
+  "categories.name": null,
+  "tags.name": null,
+  "content": null
+  },
+  "singerName": "Julie Marcoux",
+  "requestTime": "2017-11-14T06:59:59.8590173",
+  "notes": null
+  },
+  {
+  "id": 122,
+  "songId": 161572,
+  "song": {
+  "id": 161572,
+  "title": "Simon Says",
+  "categoryId": 252,
+  "category": null,
+  "artistId": 43904,
+  "artist": {
+  "id": 43904,
+  "name": "1910 Fruitgum Co.",
+  "songs": []
+  },
+  "categories.name": null,
+  "tags.name": null,
+  "content": null
+  },
+  "singerName": "Louis Simon",
+  "requestTime": "2017-11-14T07:00:21.9798602",
+  "notes": null
+  },
+  {
+  "id": 123,
+  "songId": 144287,
+  "song": {
+  "id": 144287,
+  "title": "You Sang To Me",
+  "categoryId": 260,
+  "category": null,
+  "artistId": 36500,
+  "artist": {
+  "id": 36500,
+  "name": "Marc Anthony",
+  "songs": []
+  },
+  "categories.name": null,
+  "tags.name": null,
+  "content": null
+  },
+  "singerName": "Gaetan Barrette",
+  "requestTime": "2017-11-14T07:00:46.2002322",
+  "notes": null
+  },
+  {
+  "id": 124,
+  "songId": 149805,
+  "song": {
+  "id": 149805,
+  "title": "Le Touriste",
+  "categoryId": 268,
+  "category": null,
+  "artistId": 41055,
+  "artist": {
+  "id": 41055,
+  "name": "Guildor Roy",
+  "songs": []
+  },
+  "categories.name": null,
+  "tags.name": null,
+  "content": null
+  },
+  "singerName": "Mac Guill",
+  "requestTime": "2017-11-14T07:01:04.6930162",
+  "notes": null
+  },
+  {
+  "id": 125,
+  "songId": 150260,
+  "song": {
+  "id": 150260,
+  "title": "Paris Québec",
+  "categoryId": 268,
+  "category": null,
+  "artistId": 35943,
+  "artist": {
+  "id": 35943,
+  "name": "Ginette Reno",
+  "songs": [
+            {
+            "id": 150234,
+            "title": "Indépendante Ou Dépendante",
+            "categoryId": 268,
+            "category": null,
+            "artistId": 35943,
+            "categories.name": null,
+            "tags.name": null,
+            "content": null
+            },
+            {
+            "id": 150255,
+            "title": "Roger",
+            "categoryId": 268,
+            "category": null,
+            "artistId": 35943,
+            "categories.name": null,
+            "tags.name": null,
+            "content": null
+            }
+            ]
+  },
+  "categories.name": null,
+  "tags.name": null,
+  "content": null
+  },
+  "singerName": "Danielle Goyette",
+  "requestTime": "2017-11-14T07:01:26.8539016",
+  "notes": null
+  },
+  {
+  "id": 126,
+  "songId": 151470,
+  "song": {
+  "id": 151470,
+  "title": "Il Faudra Leur Dire",
+  "categoryId": 269,
+  "category": null,
+  "artistId": 41429,
+  "artist": {
+  "id": 41429,
+  "name": "Francis Cabrel",
+  "songs": []
+  },
+  "categories.name": null,
+  "tags.name": null,
+  "content": null
+  },
+  "singerName": "La patrouille ",
+  "requestTime": "2017-11-14T07:01:53.5834304",
+  "notes": null
+  },
+  {
+  "id": 127,
+  "songId": 135289,
+  "song": {
+  "id": 135289,
+  "title": "Les Joyeux Naufragés",
+  "categoryId": 253,
+  "category": null,
+  "artistId": 37234,
+  "artist": {
+  "id": 37234,
+  "name": "Thème Tv",
+  "songs": []
+  },
+  "categories.name": null,
+  "tags.name": null,
+  "content": null
+  },
+  "singerName": "Joanie Gonthier",
+  "requestTime": "2017-11-14T07:02:41.7691865",
+  "notes": null
+  },
+  {
+  "id": 128,
+  "songId": 160235,
+  "song": {
+  "id": 160235,
+  "title": "La Guerre",
+  "categoryId": 274,
+  "category": null,
+  "artistId": 43551,
+  "artist": {
+  "id": 43551,
+  "name": "Annie Major Matte",
+  "songs": []
+  },
+  "categories.name": null,
+  "tags.name": null,
+  "content": null
+  },
+  "singerName": "Jean Charest",
+  "requestTime": "2017-11-14T07:02:54.2200151",
+  "notes": null
+  },
+  {
+  "id": 129,
+  "songId": 147245,
+  "song": {
+  "id": 147245,
+  "title": "Trois P’tit Coup",
+  "categoryId": 275,
+  "category": null,
+  "artistId": 40339,
+  "artist": {
+  "id": 40339,
+  "name": "Johnny Farago",
+  "songs": []
+  },
+  "categories.name": null,
+  "tags.name": null,
+  "content": null
+  },
+  "singerName": "Philippe Couillard",
+  "requestTime": "2017-11-14T07:03:06.7377074",
+  "notes": null
+  },
+  {
+  "id": 130,
+  "songId": 136358,
+  "song": {
+  "id": 136358,
+  "title": "Vergas 2 Times",
+  "categoryId": 254,
+  "category": null,
+  "artistId": 36056,
+  "artist": {
+  "id": 36056,
+  "name": "Stereophonics",
+  "songs": []
+  },
+  "categories.name": null,
+  "tags.name": null,
+  "content": null
+  },
+  "singerName": "Simon Bourassa",
+  "requestTime": "2017-11-14T07:03:27.415525",
+  "notes": null
+  },
+  {
+  "id": 131,
+  "songId": 144313,
+  "song": {
+  "id": 144313,
+  "title": "Too Busy Thinking About My Baby",
+  "categoryId": 260,
+  "category": null,
+  "artistId": 39572,
+  "artist": {
+  "id": 39572,
+  "name": "Manhattan Transfer & Phil Collins",
+  "songs": []
+  },
+  "categories.name": null,
+  "tags.name": null,
+  "content": null
+  },
+  "singerName": "Lise Dupuis",
+  "requestTime": "2017-11-14T07:03:42.4457558",
+  "notes": null
+  },
+  {
+  "id": 132,
+  "songId": 131125,
+  "song": {
+  "id": 131125,
+  "title": "There’s Nothing Holdin’ Me Back",
+  "categoryId": 257,
+  "category": null,
+  "artistId": 35851,
+  "artist": {
+  "id": 35851,
+  "name": "Shawn Mendes",
+  "songs": []
+  },
+  "categories.name": null,
+  "tags.name": null,
+  "content": null
+  },
+  "singerName": "Luc Malouin",
+  "requestTime": "2017-11-14T07:04:02.0035562",
+  "notes": null
+  },
+  {
+  "id": 133,
+  "songId": 133855,
+  "song": {
+  "id": 133855,
+  "title": "Un Amour Qui M’irait Bien",
+  "categoryId": 253,
+  "category": null,
+  "artistId": 36912,
+  "artist": {
+  "id": 36912,
+  "name": "Veronique Sanson",
+  "songs": []
+  },
+  "categories.name": null,
+  "tags.name": null,
+  "content": null
+  },
+  "singerName": "Eloise Dupuis",
+  "requestTime": "2017-11-14T07:04:16.1237731",
+  "notes": null
+  },
+  {
+  "id": 134,
+  "songId": 132759,
+  "song": {
+  "id": 132759,
+  "title": "Dos Locos",
+  "categoryId": 261,
+  "category": null,
+  "artistId": 36564,
+  "artist": {
+  "id": 36564,
+  "name": "Horóscopos De Durango",
+  "songs": []
+  },
+  "categories.name": null,
+  "tags.name": null,
+  "content": null
+  },
+  "singerName": "Paul-Andre roy",
+  "requestTime": "2017-11-14T07:04:26.8289375",
+  "notes": null
+  },
+  {
+  "id": 135,
+  "songId": 139133,
+  "song": {
+  "id": 139133,
+  "title": "La Corde Au Cou",
+  "categoryId": 255,
+  "category": null,
+  "artistId": 38215,
+  "artist": {
+  "id": 38215,
+  "name": "Richard Anthony",
+  "songs": []
+  },
+  "categories.name": null,
+  "tags.name": null,
+  "content": null
+  },
+  "singerName": "Lyme...",
+  "requestTime": "2017-11-14T07:04:49.5892871",
+  "notes": null
+  },
+  {
+  "id": 136,
+  "songId": 156322,
+  "song": {
+  "id": 156322,
+  "title": "Reflection",
+  "categoryId": 272,
+  "category": null,
+  "artistId": 36601,
+  "artist": {
+  "id": 36601,
+  "name": "Christina Aguilera",
+  "songs": []
+  },
+  "categories.name": null,
+  "tags.name": null,
+  "content": null
+  },
+  "singerName": "Mme Cadet.",
+  "requestTime": "2017-11-14T07:05:04.3695142",
+  "notes": null
+  },
+  {
+  "id": 137,
+  "songId": 132939,
+  "song": {
+  "id": 132939,
+  "title": "Cada Vez Te Extrano Mas",
+  "categoryId": 261,
+  "category": null,
+  "artistId": 36617,
+  "artist": {
+  "id": 36617,
+  "name": "Banda El Recodo",
+  "songs": []
+  },
+  "categories.name": null,
+  "tags.name": null,
+  "content": null
+  },
+  "singerName": "Leonie Cadoret",
+  "requestTime": "2017-11-14T07:05:21.1297716",
+  "notes": null
+  },
+  {
+  "id": 138,
+  "songId": 132221,
+  "song": {
+  "id": 132221,
+  "title": "Immortal",
+  "categoryId": 271,
+  "category": null,
+  "artistId": 36333,
+  "artist": {
+  "id": 36333,
+  "name": "Marina & The Diamonds",
+  "songs": []
+  },
+  "categories.name": null,
+  "tags.name": null,
+  "content": null
+  },
+  "singerName": "Fernand Tournebille",
+  "requestTime": "2017-11-14T07:06:04.3139349",
+  "notes": null
+  },
+  {
+  "id": 139,
+  "songId": 135758,
+  "song": {
+  "id": 135758,
+  "title": "J’ai Cru Voir Une Larme",
+  "categoryId": 254,
+  "category": null,
+  "artistId": 37366,
+  "artist": {
+  "id": 37366,
+  "name": "Sylvie Jasmin",
+  "songs": []
+  },
+  "categories.name": null,
+  "tags.name": null,
+  "content": null
+  },
+  "singerName": "Les voisins",
+  "requestTime": "2017-11-14T07:06:23.396728",
+  "notes": null
+  },
+  {
+  "id": 140,
+  "songId": 158125,
+  "song": {
+  "id": 158125,
+  "title": "La Tourtière",
+  "categoryId": 273,
+  "category": null,
+  "artistId": 35999,
+  "artist": {
+  "id": 35999,
+  "name": "Bottine Souriante",
+  "songs": [
+            {
+            "id": 158121,
+            "title": "La Chanson Du Quêteux",
+            "categoryId": 273,
+            "category": null,
+            "artistId": 35999,
+            "categories.name": null,
+            "tags.name": null,
+            "content": null
+            }
+            ]
+  },
+  "categories.name": null,
+  "tags.name": null,
+  "content": null
+  },
+  "singerName": "M. Bombardier",
+  "requestTime": "2017-11-14T07:06:49.6696316",
+  "notes": null
+  },
+  {
+  "id": 141,
+  "songId": 152681,
+  "song": {
+  "id": 152681,
+  "title": "Little Egypt",
+  "categoryId": 270,
+  "category": null,
+  "artistId": 35955,
+  "artist": {
+  "id": 35955,
+  "name": "Elvis Presley",
+  "songs": [
+            {
+            "id": 152886,
+            "title": "Amazing Grace",
+            "categoryId": 270,
+            "category": null,
+            "artistId": 35955,
+            "categories.name": null,
+            "tags.name": null,
+            "content": null
+            },
+            {
+            "id": 152587,
+            "title": "The King Is Dead",
+            "categoryId": 270,
+            "category": null,
+            "artistId": 35955,
+            "categories.name": null,
+            "tags.name": null,
+            "content": null
+            },
+            {
+            "id": 152771,
+            "title": "Early Morning Rain",
+            "categoryId": 270,
+            "category": null,
+            "artistId": 35955,
+            "categories.name": null,
+            "tags.name": null,
+            "content": null
+            }
+            ]
+  },
+  "categories.name": null,
+  "tags.name": null,
+  "content": null
+  },
+  "singerName": "Valerie Plante",
+  "requestTime": "2017-11-14T07:07:01.4448124",
+  "notes": null
+  },
+  {
+  "id": 142,
+  "songId": 135858,
+  "song": {
+  "id": 135858,
+  "title": "Petit Vieux, Petite Vieille",
+  "categoryId": 254,
+  "category": null,
+  "artistId": 35838,
+  "artist": {
+  "id": 35838,
+  "name": "Sweet People",
+  "songs": []
+  },
+  "categories.name": null,
+  "tags.name": null,
+  "content": null
+  },
+  "singerName": "Anne de Beaupré",
+  "requestTime": "2017-11-14T07:07:25.3976804",
+  "notes": null
+  },
+  {
+  "id": 143,
+  "songId": 140653,
+  "song": {
+  "id": 140653,
+  "title": "Richest Man On Earth",
+  "categoryId": 256,
+  "category": null,
+  "artistId": 38629,
+  "artist": {
+  "id": 38629,
+  "name": "Paul Overstreet",
+  "songs": []
+  },
+  "categories.name": null,
+  "tags.name": null,
+  "content": null
+  },
+  "singerName": "Rodrigo Duterte",
+  "requestTime": "2017-11-14T07:07:41.6604301",
+  "notes": null
+  },
+  {
+  "id": 144,
+  "songId": 152238,
+  "song": {
+  "id": 152238,
+  "title": "Proper Education",
+  "categoryId": 270,
+  "category": null,
+  "artistId": 41648,
+  "artist": {
+  "id": 41648,
+  "name": "Eric Vs Pink Floyd Prydz",
+  "songs": []
+  },
+  "categories.name": null,
+  "tags.name": null,
+  "content": null
+  },
+  "singerName": "Francisco",
+  "requestTime": "2017-11-14T07:08:01.4307338",
+  "notes": null
+  },
+  {
+  "id": 145,
+  "songId": 137509,
+  "song": {
+  "id": 137509,
+  "title": "Prêt À L’amour (V.F. De If You’re Not De Shania Twain)",
+  "categoryId": 254,
+  "category": null,
+  "artistId": 37800,
+  "artist": {
+  "id": 37800,
+  "name": "Shania Twain",
+  "songs": []
+  },
+  "categories.name": null,
+  "tags.name": null,
+  "content": null
+  },
+  "singerName": "Roch Richelieu",
+  "requestTime": "2017-11-14T07:08:28.0136421",
+  "notes": null
+  },
+  {
+  "id": 146,
+  "songId": 154585,
+  "song": {
+  "id": 154585,
+  "title": "You Spin Me Round (Like A Record)",
+  "categoryId": 271,
+  "category": null,
+  "artistId": 42138,
+  "artist": {
+  "id": 42138,
+  "name": "Dead Or Alive",
+  "songs": []
+  },
+  "categories.name": null,
+  "tags.name": null,
+  "content": null
+  },
+  "singerName": "Marie-Anne Lapierre",
+  "requestTime": "2017-11-14T07:09:02.6241737",
+  "notes": null
+  },
+  {
+  "id": 147,
+  "songId": 131526,
+  "song": {
+  "id": 131526,
+  "title": "Soda Pop [NU Karaoke]",
+  "categoryId": 257,
+  "category": null,
+  "artistId": 35998,
+  "artist": {
+  "id": 35998,
+  "name": "Britney Spears",
+  "songs": []
+  },
+  "categories.name": null,
+  "tags.name": null,
+  "content": null
+  },
+  "singerName": "Antoine Bossard",
+  "requestTime": "2017-11-14T07:09:17.3243995",
+  "notes": null
+  },
+  {
+  "id": 148,
+  "songId": 144391,
+  "song": {
+  "id": 144391,
+  "title": "Intervention",
+  "categoryId": 260,
+  "category": null,
+  "artistId": 36335,
+  "artist": {
+  "id": 36335,
+  "name": "Madonna",
+  "songs": [
+            {
+            "id": 144432,
+            "title": "Ray Of Light",
+            "categoryId": 260,
+            "category": null,
+            "artistId": 36335,
+            "categories.name": null,
+            "tags.name": null,
+            "content": null
+            }
+            ]
+  },
+  "categories.name": null,
+  "tags.name": null,
+  "content": null
+  },
+  "singerName": "Richard Martineau",
+  "requestTime": "2017-11-14T07:10:28.8004974",
+  "notes": null
+  },
+  {
+  "id": 149,
+  "songId": 139790,
+  "song": {
+  "id": 139790,
+  "title": "Real World",
+  "categoryId": 256,
+  "category": null,
+  "artistId": 38389,
+  "artist": {
+  "id": 38389,
+  "name": "Queensryche",
+  "songs": []
+  },
+  "categories.name": null,
+  "tags.name": null,
+  "content": null
+  },
+  "singerName": "Dany Vervaine",
+  "requestTime": "2017-11-14T07:11:00.3259816",
+  "notes": null
+  },
+  {
+  "id": 150,
+  "songId": 136520,
+  "song": {
+  "id": 136520,
+  "title": "C’est Le Début D’un Temps Nouveau",
+  "categoryId": 254,
+  "category": null,
+  "artistId": 37545,
+  "artist": {
+  "id": 37545,
+  "name": "Star Académie 2004",
+  "songs": []
+  },
+  "categories.name": null,
+  "tags.name": null,
+  "content": null
+  },
+  "singerName": "Jean Gauvin",
+  "requestTime": "2017-11-14T07:11:18.6687633",
+  "notes": null
+  },
+  {
+  "id": 151,
+  "songId": 149779,
+  "song": {
+  "id": 149779,
+  "title": "L’eau Vive",
+  "categoryId": 268,
+  "category": null,
+  "artistId": 41049,
+  "artist": {
+  "id": 41049,
+  "name": "Guy Béart",
+  "songs": []
+  },
+  "categories.name": null,
+  "tags.name": null,
+  "content": null
+  },
+  "singerName": "Henry F. Hall",
+  "requestTime": "2017-11-14T07:11:42.8091341",
+  "notes": null
+  },
+  {
+  "id": 152,
+  "songId": 139735,
+  "song": {
+  "id": 139735,
+  "title": "What’s The Frequency Kenneth",
+  "categoryId": 255,
+  "category": null,
+  "artistId": 38369,
+  "artist": {
+  "id": 38369,
+  "name": "R.E.M.",
+  "songs": []
+  },
+  "categories.name": null,
+  "tags.name": null,
+  "content": null
+  },
+  "singerName": "John F. Kennedy",
+  "requestTime": "2017-11-14T07:11:53.8943044",
+  "notes": null
+  },
+  {
+  "id": 153,
+  "songId": 155555,
+  "song": {
+  "id": 155555,
+  "title": "Earthbound",
+  "categoryId": 272,
+  "category": null,
+  "artistId": 42424,
+  "artist": {
+  "id": 42424,
+  "name": "Connor Reeves",
+  "songs": []
+  },
+  "categories.name": null,
+  "tags.name": null,
+  "content": null
+  },
+  "singerName": "Jordan Miller",
+  "requestTime": "2017-11-14T07:12:22.2772404",
+  "notes": null
+  },
+  {
+  "id": 154,
+  "songId": 135370,
+  "song": {
+  "id": 135370,
+  "title": "Ma Truie",
+  "categoryId": 253,
+  "category": null,
+  "artistId": 35836,
+  "artist": {
+  "id": 35836,
+  "name": "Tex Lecor",
+  "songs": []
+  },
+  "categories.name": null,
+  "tags.name": null,
+  "content": null
+  },
+  "singerName": "Yves...",
+  "requestTime": "2017-11-14T07:12:41.525036",
+  "notes": null
+  },
+  {
+  "id": 155,
+  "songId": 132093,
+  "song": {
+  "id": 132093,
+  "title": "True Friends",
+  "categoryId": 273,
+  "category": null,
+  "artistId": 36266,
+  "artist": {
+  "id": 36266,
+  "name": "Bring Me The Horizon",
+  "songs": []
+  },
+  "categories.name": null,
+  "tags.name": null,
+  "content": null
+  },
+  "singerName": "Al capone",
+  "requestTime": "2017-11-14T07:12:59.0453051",
+  "notes": null
+  },
+  {
+  "id": 156,
+  "songId": 159268,
+  "song": {
+  "id": 159268,
+  "title": "Steal My Kisses",
+  "categoryId": 273,
+  "category": null,
+  "artistId": 43310,
+  "artist": {
+  "id": 43310,
+  "name": "Ben Harper & The Innocent Criminals",
+  "songs": []
+  },
+  "categories.name": null,
+  "tags.name": null,
+  "content": null
+  },
+  "singerName": "Sylvain Bourgault",
+  "requestTime": "2017-11-14T07:13:32.1558137",
+  "notes": null
+  },
+  {
+  "id": 157,
+  "songId": 135656,
+  "song": {
+  "id": 135656,
+  "title": "Shine",
+  "categoryId": 253,
+  "category": null,
+  "artistId": 35837,
+  "artist": {
+  "id": 35837,
+  "name": "Take That",
+  "songs": []
+  },
+  "categories.name": null,
+  "tags.name": null,
+  "content": null
+  },
+  "singerName": "Thomas ",
+  "requestTime": "2017-11-14T07:14:24.7466215",
+  "notes": null
+  }
+  ]

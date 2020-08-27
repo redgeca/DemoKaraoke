@@ -494,7 +494,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         cell.isUserInteractionEnabled = true;
         cell.songLabel.text = request.song.title + " de " + (request.song.artist?.name)!
         cell.singerLabel.text = request.singerName
-        cell.notesLabel.text = request.notes == nil ? "" : request.notes
+        cell.notesLabel.text = (request.notes == nil || request.notes == "null") ? "" : request.notes
         if (request.notes == nil) {
             print("NULL")
         } else if (request.notes == "null") {

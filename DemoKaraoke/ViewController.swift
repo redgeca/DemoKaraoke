@@ -103,7 +103,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     
     @IBAction func deleteAction(_ sender: UIButton) {
         switch(sender) {
-        case deleteRequests: print("Delete Reqquests");
+        case deleteRequests: print("Delete Requests");
         break;
             
         case deletePlaylist:print("Delete Playlist");
